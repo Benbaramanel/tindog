@@ -1,0 +1,179 @@
+
+body{
+    font-family: "Montserrat"
+}
+
+
+#title{
+    height: 580px;
+    background-color: rgb(48, 74, 187);
+    color: white;
+    position: relative;
+}
+#title h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif
+}
+
+#features h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif
+} 
+
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+#title .navbar{
+    padding: 0 0 4.5rem;
+}
+#title .navbar-brand{
+    font-family: 'Heebo', sans-serif;
+    font-size: 2.2rem;
+    color: white;
+}
+
+#title .nav-item{
+    padding: 0 18px;
+}
+
+#title .nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    color: rgb(199, 199, 207);
+
+}
+.down-but{
+    margin: 5% 3% 5% 0;
+}
+
+#title .photo{
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 25%;
+  
+}
+
+#features{
+    padding: 7% 15%;
+    z-index: 1;
+    position: relative;
+    background-color: white;
+}
+
+#features .feature-box{
+    text-align: center;
+    bottom: 20%;
+    position: relative;
+}
+
+#features .icon{
+    color: rgb(71, 56, 153);
+    margin-bottom: 1rem;
+} 
+#features .icon:hover{
+    color: rgb(160, 150, 248);
+}
+
+/************************************************* main ************************************************/
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #fff ;
+    color: #fff;
+    bottom: 20%;
+    padding: 5% 15%;
+    background-color: rgb(252, 252, 47);
+   
+}
+
+#testimonials h2{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+}
+
+#testimonials .testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: rgb(252, 252, 47);
+    padding-bottom: 3%;
+    text-align: center;
+    
+}
+
+#press .press-logo{
+     width: 15%;
+     margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+#pricing .prix h2{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif
+}
+#pricing .prix p{
+    color: rgb(119, 119, 119);
+    font-weight: bold;
+}
+#pricing .prix{
+    top: 40px;
+    padding: 3%;
+    text-align: center;
+    
+}
+
+#cta{
+    text-align: center;
+    height: 370px;
+    background-color: rgb(77, 100, 204);
+    position: relative;
+    padding: 7% 27%;
+    
+}
+
+#cta h3{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: white;
+    top: 10px;
+    font-family: 'Heebo', sans-serif;
+    
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.sc-icon{
+margin: 10px 20px;
+
+}
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    #title .photo {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
+
