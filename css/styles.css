@@ -5,7 +5,7 @@ body{
 
 
 #title{
-    height: 580px;
+    height: 540px;
     background-color: rgb(48, 74, 187);
     color: white;
     position: relative;
@@ -167,7 +167,9 @@ margin: 10px 20px;
 @media (max-width: 1028px) {
     #title{
         text-align: center;
+        height: 810px;
     }
+   
     #title .photo {
         position: static;
         transform: rotate(0);
