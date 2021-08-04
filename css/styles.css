@@ -5,13 +5,13 @@ body{
 
 
 #title{
-    background-color: rgb(255, 176, 5);
+    background-color: rgb(7, 11, 51);
     color: white;
     position: relative;
     height: 640px;
 }
 #title h1{
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-weight: bold;
     font-family: 'Heebo', sans-serif
 }
@@ -27,13 +27,19 @@ body{
     padding: 3% 15% 7%;
 }
 
+#title .navigate{
+ position: relative;
+
+}
 #title .navbar{
     padding: 0 0 4.5rem;
 }
 #title .navbar-brand{
-    font-family: 'Heebo', sans-serif;
-    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.6rem;
     color: white;
+    position: relative;
+    bottom: 42px;
 }
 
 #title .nav-item{
@@ -74,11 +80,11 @@ body{
 }
 
 #features .icon{
-    color: rgb(38, 38, 243);
+    color: rgb(10, 10, 150);
     margin-bottom: 1rem;
 } 
 #features .icon:hover{
-    color: rgb(160, 150, 248);
+    color: #0099CC;
 }
 
 /************************************************* main ************************************************/
@@ -91,7 +97,7 @@ body{
     bottom: 20%; 
     position: relative;
     padding: 5% 15%;
-    background-color: rgb(255, 185, 34);
+    background-color: #0ae763;
    
 }
 
@@ -109,7 +115,7 @@ body{
 }
 
 #press{
-    background-color: rgb(255, 185, 34);
+    background-color: #0ae763;
     padding-bottom: 3%;
     text-align: center;
     
@@ -130,7 +136,7 @@ body{
     font-family: 'Heebo', sans-serif
 }
 #pricing .prix p{
-    color: rgb(119, 119, 119);
+    color: rgb(9, 18, 70);
     font-weight: bold;
 }
 #pricing .prix{
@@ -139,11 +145,15 @@ body{
     text-align: center;
     
 }
+#pricing .assil{
+    color: white;
+    background-color: rgb(7, 11, 51);
+}
 
 #cta{
     text-align: center;
     height: 370px;
-    background-color: blue;
+    background-color: rgb(4, 4, 112);
     position: relative;
     padding: 7% 27%;
     
@@ -171,6 +181,11 @@ margin: 10px 10px;
     #title{
         text-align: center;
         height: 100%;
+    }
+    #title .navbar-brand{
+        text-align: left;
+        position: relative;
+        right: 90px;
     }
    
     #title .photo {
