@@ -5,9 +5,10 @@ body{
 
 
 #title{
-    background-color: rgb(48, 74, 187);
+    background-color: rgb(255, 176, 5);
     color: white;
     position: relative;
+    height: 640px;
 }
 #title h1{
     font-size: 2.5rem;
@@ -31,7 +32,7 @@ body{
 }
 #title .navbar-brand{
     font-family: 'Heebo', sans-serif;
-    font-size: 2.2rem;
+    font-size: 4rem;
     color: white;
 }
 
@@ -42,7 +43,7 @@ body{
 #title .nav-link{
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
-    color: rgb(199, 199, 207);
+    color: rgb(236, 236, 230);
 
 }
 .down-but{
@@ -51,9 +52,10 @@ body{
 
 #title .photo{
     width: 60%;
-    transform: rotate(20deg);
+    transform: rotate(18deg);
     position: absolute;
-    right: 25%;
+    right: 30%;
+    
   
 }
 
@@ -62,6 +64,7 @@ body{
     z-index: 1;
     position: relative;
     background-color: white;
+    
 }
 
 #features .feature-box{
@@ -71,7 +74,7 @@ body{
 }
 
 #features .icon{
-    color: rgb(71, 56, 153);
+    color: rgb(38, 38, 243);
     margin-bottom: 1rem;
 } 
 #features .icon:hover{
@@ -85,9 +88,10 @@ body{
     text-align: center;
     background-color: #fff ;
     color: #fff;
-    bottom: 20%;
+    bottom: 20%; 
+    position: relative;
     padding: 5% 15%;
-    background-color: rgb(252, 252, 47);
+    background-color: rgb(255, 185, 34);
    
 }
 
@@ -105,7 +109,7 @@ body{
 }
 
 #press{
-    background-color: rgb(252, 252, 47);
+    background-color: rgb(255, 185, 34);
     padding-bottom: 3%;
     text-align: center;
     
@@ -139,7 +143,7 @@ body{
 #cta{
     text-align: center;
     height: 370px;
-    background-color: rgb(77, 100, 204);
+    background-color: blue;
     position: relative;
     padding: 7% 27%;
     
@@ -159,13 +163,14 @@ body{
 }
 
 .sc-icon{
-margin: 10px 20px;
+margin: 10px 10px;
 
 }
 
 @media (max-width: 1028px) {
     #title{
         text-align: center;
+        height: 100%;
     }
    
     #title .photo {
