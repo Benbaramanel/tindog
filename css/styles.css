@@ -98,7 +98,7 @@ body{
     bottom: 20%; 
     position: relative;
     padding: 5% 15%;
-    background-color: #0ae763;
+    background-color: rgb(7, 11, 51);
    
 }
 
@@ -116,7 +116,7 @@ body{
 }
 
 #press{
-    background-color: #0ae763;
+    background-color: rgb(7, 11, 51);
     padding-bottom: 3%;
     text-align: center;
     
@@ -148,7 +148,7 @@ body{
 }
 #pricing .assil{
     color: white;
-    background-color: rgb(7, 11, 51);
+    background-color: rgb(32, 179, 224);
 }
 
 #cta{
@@ -193,6 +193,10 @@ margin: 10px 10px;
         position: static;
         transform: rotate(0);
     }
+    #press .press-logo{
+        width: 12%;
+        margin: 20px 15px 30px;
+   }
 }
 
 
